@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>_d</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    if (self.delegate &amp;&amp; [self.delegate respondsToSelector:@selector(&lt;#SEL NAME#&gt;)]) {
+        [self.delegate &lt;#SEL NAME#&gt;];
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AAD75718-AF98-4171-8B7D-F2F4027E026E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>快捷代理相应代码</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>delegate imp</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
