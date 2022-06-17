@@ -1,4 +1,7 @@
 code snippets back-up
+
+find your code snippets on path:`~/Library/Developer/Xcode/UserData/CodeSnippets/`
+
 ```
 #warning 测试代码
 #ifdef DEBUG
