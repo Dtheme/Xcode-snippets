@@ -3,23 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>global</string>
+	<string>viewDidLayoutSubviews</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        &lt;#code here#&gt;
-    });</string>
+	<string>- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>11197820-A082-4BAA-B835-5D0DDCED1B58</string>
+	<string>494D85BB-30BB-434A-9383-2B0CAD69B785</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>GCD default global  queue</string>
+	<string>viewDidLayoutSubviews</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

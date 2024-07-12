@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>global</string>
+	<string>const_interface</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        &lt;#code here#&gt;
-    });</string>
+	<string>extern &lt;#const type#&gt; *const &lt;#type name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>11197820-A082-4BAA-B835-5D0DDCED1B58</string>
+	<string>E53412C7-8301-42C7-BE5B-0FDE7037861C</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>GCD default global  queue</string>
+	<string>interface:const *</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

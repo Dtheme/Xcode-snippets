@@ -3,26 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>global</string>
+	<string>@masmake</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        &lt;#code here#&gt;
-    });</string>
+	<string>    [&lt;#super view#&gt; addSubview:&lt;#view#&gt;];
+    [&lt;#view#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(&lt;#Value#&gt;);
+        make.right.mas_equalTo(&lt;#Value#&gt;);
+        make.top.mas_equalTo(&lt;#Value#&gt;);
+        make.bottom.mas_equalTo(&lt;#Value#&gt;);
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>11197820-A082-4BAA-B835-5D0DDCED1B58</string>
+	<string>87E615F4-30CC-4971-BD2A-F4CFB76AB3F4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>GCD default global  queue</string>
+	<string>masonry make constraint</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
