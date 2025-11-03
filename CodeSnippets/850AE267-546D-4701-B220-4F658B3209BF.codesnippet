@@ -3,27 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debug</string>
+	<string>pubmapper</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#warning("测试代码")
-#if DEBUG
-&lt;#debug code here#&gt;
-#else
-// release执行：
-&lt;#release code here#&gt;
-#endif</string>
+	<string>map { &lt;#value#&gt; in
+                &lt;#transform#&gt;
+            }
+            .compactMap { &lt;#value#&gt; in
+                &lt;#transformOptionalToNonOptional#&gt;
+            }
+            .tryMap { &lt;#value#&gt; in
+                if &lt;#condition#&gt; {
+                    throw &lt;#error#&gt;
+                }
+                return &lt;#result#&gt;
+            }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B1677A8-F20D-4052-B3DB-2FAB0CAA9DEE</string>
+	<string>850AE267-546D-4701-B220-4F658B3209BF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift 测试代码</string>
+	<string>publisher mapper operator</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>debug</string>
+	<string>publisher mapper</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debug</string>
+	<string>passthrough</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#warning("测试代码")
-#if DEBUG
-&lt;#debug code here#&gt;
-#else
-// release执行：
-&lt;#release code here#&gt;
-#endif</string>
+	<string>PassthroughSubject&lt;&lt;#published type#&gt;,&lt;#error#&gt;&gt;()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B1677A8-F20D-4052-B3DB-2FAB0CAA9DEE</string>
+	<string>79B6E26E-7213-45F4-9179-AF325D7ED909</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift 测试代码</string>
+	<string>PassthroughSubject property snipet</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>debug</string>
+	<string>PassthroughSubject&lt;&lt;#published type#&gt;,Never&gt;()</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

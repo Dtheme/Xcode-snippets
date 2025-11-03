@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debug</string>
+	<string>userdefaultval</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#warning("测试代码")
-#if DEBUG
-&lt;#debug code here#&gt;
-#else
-// release执行：
-&lt;#release code here#&gt;
-#endif</string>
+	<string>let val = UserDefaults.standard.value(forKey: &lt;#T##String#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B1677A8-F20D-4052-B3DB-2FAB0CAA9DEE</string>
+	<string>BA96B32B-A412-4C6B-9EB6-66078462BA7D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift 测试代码</string>
+	<string>userdefault查</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>debug</string>
+	<string>userdefault查</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

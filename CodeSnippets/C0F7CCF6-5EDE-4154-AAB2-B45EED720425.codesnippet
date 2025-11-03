@@ -3,27 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debug</string>
+	<string>notiaddObserver</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#warning("测试代码")
-#if DEBUG
-&lt;#debug code here#&gt;
-#else
-// release执行：
-&lt;#release code here#&gt;
-#endif</string>
+	<string>NotificationCenter.default.addObserver(
+    forName: &lt;#Notification.Name#&gt;,
+    object: nil,
+    queue: .main
+) { notification in
+    &lt;#code#&gt;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B1677A8-F20D-4052-B3DB-2FAB0CAA9DEE</string>
+	<string>C0F7CCF6-5EDE-4154-AAB2-B45EED720425</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift 测试代码</string>
+	<string>notification addObserver</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>debug</string>
+	<string>notification addObserver</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pubsink</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>sink(receiveCompletion: { completion in
+                switch completion {
+                case .finished:
+                    //完成
+                    print("finished")
+                case .failure(let error):
+                    //错误
+                    print("\(error)")
+                }
+            }, receiveValue: { value in
+                //收到
+                print("\(value)")
+            })
+            .store(in: &amp;&lt;#cancellables#&gt;)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>76958A6F-2CD5-47E2-9E2E-D04594CE9889</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>publisher sink-receiverVal-store</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>publisher sink-receiverVal-store</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -3,27 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debug</string>
+	<string>pubtime</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#warning("测试代码")
-#if DEBUG
-&lt;#debug code here#&gt;
-#else
-// release执行：
-&lt;#release code here#&gt;
-#endif</string>
+	<string>debounce(for: .seconds(&lt;#time#&gt;), scheduler: RunLoop.main)
+            .throttle(for: .seconds(&lt;#time#&gt;), scheduler: RunLoop.main, latest: true)
+            .delay(for: .seconds(&lt;#time#&gt;), scheduler: RunLoop.main)
+            .timeout(.seconds(&lt;#time#&gt;), scheduler: RunLoop.main)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B1677A8-F20D-4052-B3DB-2FAB0CAA9DEE</string>
+	<string>304D5E6C-3C6C-478B-B41B-0D3E10C80F0B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift 测试代码</string>
+	<string>publisher time control</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>debug</string>
+	<string>publisher time control</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
